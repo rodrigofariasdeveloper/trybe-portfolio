@@ -1,5 +1,18 @@
+/* RESET BÁSICO */
 * {
 	margin:  0;
 	padding:  0;
 	box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+	align-items: center;
+	justify-content: center;
+	background-image: url('./img/fundo.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 }
