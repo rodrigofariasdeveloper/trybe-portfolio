@@ -31,3 +31,60 @@ header p {
 	font-size: 28px;
 	margin-top: 10px;
 }
+
+/* SOBRE */
+#sobre {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#sobre #foto-perfil {
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	margin-top: 15px;
+}
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	margin-top: 15px;
+	font-weight: 800;
+}
+
+h3 {
+	margin-top: 20px;
+}
+
+.habilidade {
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.descricao-habilidade {
+	font-size: 16px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.lista-de-habilidades {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lista-de-habilidades div {
+	margin-left: 25px;
+}
+
+.lista-de-habilidades div p {
+	width: 200px;
+	height: 100px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 991px) {
+  .lista-de-habilidades {
+	justify-content: center;
+  }
+}
