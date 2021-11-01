@@ -53,13 +53,14 @@ h2 {
 }
 
 h3 {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .habilidade {
 	height: 200px;
 	width: 200px;
-	margin-top: 20px;
+	margin-top: 30px;
+	text-align: center;
 }
 
 .descricao-habilidade {
@@ -71,6 +72,7 @@ h3 {
 .lista-de-habilidades {
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 .lista-de-habilidades div {
