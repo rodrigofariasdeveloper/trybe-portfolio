@@ -34,22 +34,22 @@ header p {
 
 /* SOBRE */
 #sobre {
-	display: flex;
 	align-items: center;
+	display: flex;
 	flex-direction: column;
 }
 
 #sobre #foto-perfil {
 	border-radius: 100%;
 	height: 200px;
-	width: 200px;
 	margin-top: 15px;
+	width: 200px;
 }
 
 h2 {
 	font-family: 'Shadows Into Light', cursive;
-	margin-top: 15px;
 	font-weight: 800;
+	margin-top: 15px;
 }
 
 h3 {
@@ -58,9 +58,9 @@ h3 {
 
 .habilidade {
 	height: 200px;
-	width: 200px;
 	margin-top: 30px;
 	text-align: center;
+	width: 200px;
 }
 
 .descricao-habilidade {
@@ -72,7 +72,6 @@ h3 {
 .lista-de-habilidades {
 	display: flex;
 	flex-wrap: wrap;
-
 }
 
 .lista-de-habilidades div {
@@ -80,13 +79,26 @@ h3 {
 }
 
 .lista-de-habilidades div p {
-	width: 200px;
 	height: 100px;
+	width: 200px;
 }
 
 /* MEDIA QUERIES */
+
+/* Tablet */
 @media screen and (max-width: 991px) {
   .lista-de-habilidades {
-	justify-content: center;
+		justify-content: center;
   }
+}
+
+/* Telefone */
+@media screen and (max-width: 768px) {
+	header h1 {
+		font-size: 28px;
+	}
+
+	header p {
+		font-size: 24px;
+	}
 }
