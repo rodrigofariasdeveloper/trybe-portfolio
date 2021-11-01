@@ -78,6 +78,10 @@ h3 {
 	margin-left: 25px;
 }
 
+.lista-de-habilidades div:hover {
+	background: rgba(0, 0, 255, 0.3);
+}
+
 .lista-de-habilidades div p {
 	height: 100px;
 	width: 200px;
