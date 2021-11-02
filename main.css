@@ -24,11 +24,11 @@ header p {
 }
 
 header h1 {
-	font-size: 32px;
+	font-size: 40px;
 }
 
 header p {
-	font-size: 28px;
+	font-size: 32px;
 	margin-top: 10px;
 }
 
@@ -46,14 +46,16 @@ header p {
 	width: 200px;
 }
 
-h2 {
+#sobre h2 {
 	font-family: 'Shadows Into Light', cursive;
 	font-weight: 800;
 	margin-top: 15px;
+	font-size: 32px;
 }
 
-h3 {
+#sobre h3 {
 	margin-top: 30px;
+	font-size: 24px;
 }
 
 .habilidade {
@@ -103,6 +105,11 @@ h3 {
 	}
 
 	header p {
+		font-size: 24px;
+	}
+
+	#sobre h2,
+	#sobre h3 {
 		font-size: 24px;
 	}
 }
