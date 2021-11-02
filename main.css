@@ -89,6 +89,55 @@ header p {
 	width: 200px;
 }
 
+/* CONTATO */
+
+#contato h4 {
+	font-size: 27px;
+	text-align: center;
+	margin-top: 20px;
+	color: rgba(0, 0, 225, 0.7);
+}
+
+#form-contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#input-nome,
+#input-email {
+	width: 300px;
+	height: 50px;
+}
+
+#input-mensagem {
+	width: 600px;
+	height: 300px;
+	padding-top: 10px;
+}
+
+#input-nome,
+#input-email,
+#input-mensagem {
+	margin-top: 30px;
+	border: 1px solid rgb(0, 0, 255);
+	padding-left: 20px;
+}
+
+#enviar {
+	color: #fff;
+	margin-top: 15px;
+	background-color: #0d6efd;
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+}
+
+#enviar:hover {
+	background-color: #0d6eaa;
+	cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 /* Tablet */
@@ -111,5 +160,9 @@ header p {
 	#sobre h2,
 	#sobre h3 {
 		font-size: 24px;
+	}
+
+	#input-mensagem {
+		width: 300px;
 	}
 }
